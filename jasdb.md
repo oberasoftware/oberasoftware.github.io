@@ -3,28 +3,28 @@ layout: page
 permalink: /jasdb/
 title: About JasDB
 tagline: JASDB
-tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2013
-comments: true
-image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+tags: [jasdb, nosql, document, database, java, fast]
+modified: 14-7-2014
+comments: false
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography.
+### Description
+JasDB is a NoSQL database using a document-based storage mechanism. We developed JasDB to provide an alternative to current document-based implementations out there, to add something new to the industry and give users more choices. We want to put in our two-cent’s-worth to help the industry into a new stage of maturity. So what does this have to do with you, dear user? Well, we at Obera believe that software should be based on real -life user needs, and we are very interested in your needs. If you invest your time and effort into using JasDB, your return will be a product that grows to meet your needs. We are interested in your feedback, so please do not hesitate to contact us with your ideas and requirements as we walk this journey together.
 
-## Minimal Mistakes is all about:
+JasDB was designed with easy of use and minimal configuration in mind. JasDB can be installed and configured in almost no time at all. Use JasDB as an embedded DB inside your JVM or you can use it to store your unstructured data in JSON format. If you want to scale JasDB, simply run and use it through the REST webservice.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+### Features of JasDB:
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+* Run as embedded DB inside the JVM
+* JSON Document storage
+* REST interface
+* Runs on Android
+* Complete Querying functionality
+* High concurrency environment
+* Stackable components allow great flexibility
+* Extensible
+* User security and granting model
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+
+But don’t let us bore you with the details, and don’t take our word for it! Why not try JasDB and see for yourself how easy and comfortable it is to use. Installation is a cinch and you can be up and running within minutes, because its a simple product and fun product. Just hop to our download page and you can see for yourself.
