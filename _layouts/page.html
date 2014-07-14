@@ -11,31 +11,28 @@
 
 {% include _browser-upgrade.html %}
 
-{% include _navigation.html %}
+<div class="container">
+  {% include _navigation.html %}
+  <div class="row">
+    <div class="col-md-4">
 
-
-
-
-<div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
-  <article>
-    <h1>{{ page.title }}</h1>
-    <div class="article-wrap">
+    </div>
+    <div class="col-md-8">
       {{ content }}
-    </div><!-- /.article-wrap -->
-    {% if site.disqus_shortname and page.comments %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    {% endif %}
-  </article>
-</div><!-- /#index -->
+    </div>
+      {% if site.disqus_shortname and page.comments %}
+        <section id="disqus_thread"></section><!-- /#disqus_thread -->
+      {% endif %}
+  </div>
 
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
+  <div class="footer">
+    <p>{{site_copyright}}</p>
+  </div>
+</div>
+
+
+
+
 
 {% include _scripts.html %}
 
