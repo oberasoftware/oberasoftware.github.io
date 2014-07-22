@@ -14,10 +14,16 @@
 <div class="container">
   {% include _navigation.html %}
   <div class="row">
-    <div class="col-md-4">
-
+    <div class="col-md-3">
+      <ul>
+      {% for node in site.pages %}
+          {% if page.group != null and node.group != null and page.group == node.group %}
+          <li><a href="{{node.url}}">{{node.title}}</a></li>
+          {% endif %}
+      {% endfor %}
+      </ul>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-9">
       {{ content }}
     </div>
       {% if site.disqus_shortname and page.comments %}
@@ -26,7 +32,7 @@
   </div>
 
   <div class="footer">
-    <p>{{site_copyright}}</p>
+    <p>{{site.site_copyright}}</p>
   </div>
 </div>
 
