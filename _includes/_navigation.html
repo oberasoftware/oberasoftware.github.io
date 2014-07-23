@@ -1,12 +1,14 @@
-<div class="header">
-	<ul class="nav nav-pills pull-right">
-		{% for link in site.links %}
-			<li class="{% if link.url == page.url %}active{% else %}inactive{% endif %}"><a  href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-		{% endfor %}
-	</ul>
-	<h3 class="text-muted">
+<div class="navbar navbar-default">
+	<div class="navbar-header">
 		<a href="{{site.url}}">
 			<img src="{{ site.url }}/images/oberalogo.png" height="30"/>
 		</a>
-	</h3>
+	</div>
+	<div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">
+			{% for link in site.links %}
+				<li class="{% if link.url == page.url %}active{% else %}inactive{% endif %}"><a  href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
 </div><!-- /.navigation-wrapper -->

@@ -15,13 +15,17 @@
   {% include _navigation.html %}
   <div class="row">
     <div class="col-md-3">
-      <ul>
-      {% for node in site.pages %}
-          {% if page.group != null and node.group != null and page.group == node.group %}
-          <li><a href="{{node.url}}">{{node.title}}</a></li>
-          {% endif %}
-      {% endfor %}
-      </ul>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <ul>
+          {% for node in site.pages %}
+              {% if page.group != null and node.group != null and page.group == node.group %}
+              <li><a href="{{node.url}}">{{node.title}}</a></li>
+              {% endif %}
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="col-md-9">
       {{ content }}
