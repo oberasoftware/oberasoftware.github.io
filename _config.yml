@@ -7,6 +7,7 @@ repository:       https://bitbucket.org/oberasoftware/jasdb_open
 product_name:     JasDB
 download_url:     https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.8.zip
 #url:              http://www.oberasoftware.com
+url:              http://oberasoftware.github.io/jasdb/
 site_copyright:   © 2014 Oberasoftware.com
 disqus_shortname:
 
