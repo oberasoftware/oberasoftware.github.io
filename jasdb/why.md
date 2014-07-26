@@ -4,6 +4,7 @@ permalink: /jasdb/why/
 title: Why JasDB
 tagline: JASDB
 group: JasDB
+weight: 1
 tags: [jasdb, nosql, document, database, java, fast]
 modified: 14-7-2014
 comments: false

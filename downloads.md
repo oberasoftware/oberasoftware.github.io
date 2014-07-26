@@ -11,11 +11,19 @@ comments: false
 ### Downloads
 This page contains the download links for the free Enterprise versions of JasDB. Please check the wiki for info on how to use the downloads provided to get started. The download contains both the REST client libraries and Enterprise JasDB server.
 
-Stable version:
+#### Stable version:
 
-[JasDB v0.8](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.8.zip)
+* [JasDB v0.8](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.8.zip)
 
-Maven Artifacts
+#### Archived versions:
+
+* [JasDB v0.7.1](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.7.1.zip)
+* [JasDB v0.7](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.7.zip)
+* [JasDB v0.6.6](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.6.6.0.zip)
+* [JasDB v0.6.5](https://bitbucket.org/oberasoftware/jasdb_open/downloads/cdlayout_0.6.5.zip)
+* [JasDB v0.6.4](https://bitbucket.org/oberasoftware/jasdb_open/downloads/cdlayout_0.6.4.0.zip)
+
+#### Maven Artifacts
 
 In order to obtain the maven release artifacts the following repository can be used:
 {% highlight xml %}

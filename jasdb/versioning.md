@@ -3,6 +3,7 @@ layout: page
 permalink: /jasdb/versioning/
 title: JasDB Versioning
 group: JasDB
+weight: 5
 tagline: JASDB
 tags: [jasdb, nosql, document, database, java, fast]
 modified: 14-7-2014

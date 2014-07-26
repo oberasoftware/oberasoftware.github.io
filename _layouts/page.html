@@ -14,29 +14,38 @@
 <div class="container">
   {% include _navigation.html %}
   <div class="row">
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <ul>
-          {% for node in site.pages %}
-              {% if page.group != null and node.group != null and page.group == node.group %}
-              <li><a href="{{node.url}}">{{node.title}}</a></li>
-              {% endif %}
-          {% endfor %}
-          </ul>
+    {% if page.group != null %}
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <ul>
+            {% assign links = site.pages | sort: 'weight' %}
+            {% for node in links %}
+                {% if page.group != null and node.group != null and page.group == node.group %}
+                <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-9">
-      {{ content }}
-    </div>
+      <div class="col-md-9">
+        {{ content }}
+      </div>
+    {% else %}
+      <div class="cold-md-12">
+        {{ content }}
+      </div>
+    {% endif %}
       {% if site.disqus_shortname and page.comments %}
         <section id="disqus_thread"></section><!-- /#disqus_thread -->
       {% endif %}
   </div>
 
-  <div class="footer">
-    <p>{{site.site_copyright}}</p>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center small">{{site.site_copyright}}</p>
+    </div>
   </div>
 </div>
 

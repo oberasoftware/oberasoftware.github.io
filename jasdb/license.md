@@ -3,6 +3,7 @@ layout: page
 permalink: /jasdb/license/
 title: JasDB License
 group: JasDB
+weight: 10
 tagline: JASDB
 tags: [jasdb, nosql, document, database, java, fast]
 modified: 14-7-2014

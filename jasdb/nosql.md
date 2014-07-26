@@ -4,6 +4,7 @@ permalink: /jasdb/nosql/
 title: What is NoSQL
 tagline: JASDB
 group: JasDB
+weight: 3
 tags: [jasdb, nosql, document, database, java, fast]
 modified: 14-7-2014
 comments: false

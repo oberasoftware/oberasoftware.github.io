@@ -3,6 +3,7 @@ layout: page
 permalink: /jasdb/definitions/
 title: JasDB Definitions
 group: JasDB
+weight: 2
 tagline: JASDB
 tags: [jasdb, nosql, document, database, java, fast]
 modified: 14-7-2014
@@ -10,6 +11,7 @@ comments: false
 ---
 
 ## JasDB Definitions
+
 ### Instance
 
 An instance is what, in traditional RDBMS, would be considered a schema/database. The instance can contain a collection of Bags and has a storage path on the disk associated, meaning all bags or entities in the instance are stored in the storage location.
