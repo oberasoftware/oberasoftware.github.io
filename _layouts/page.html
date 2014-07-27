@@ -19,7 +19,7 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <ul>
-            {% assign links = site.pages %}
+            {% assign links = site.pages | sort: 'weight' %}
             {% for node in links %}
                 {% if page.group != null and node.group != null and page.group == node.group %}
                 <li><a href="{{node.url}}">{{node.title}}</a></li>
