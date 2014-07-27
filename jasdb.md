@@ -2,6 +2,7 @@
 layout: page
 permalink: /jasdb/
 group: JasDB
+weight: 1
 title: About JasDB
 tagline: JASDB
 tags: [jasdb, nosql, document, database, java, fast]

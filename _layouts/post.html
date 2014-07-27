@@ -24,10 +24,28 @@
         {{ content }}
       </div>
       <div class="panel-footer">
-        Posted in
-          {% for tag in page.tags %}
-            {{tag}};
-          {% endfor %}
+          <div class="row">
+            <strong>Posted in:</strong>
+            <em>
+              {% for tag in page.tags %}
+                {{tag}};
+              {% endfor %}
+            </em>
+          </div>
+          <div class="row">
+            <ul class="pager">
+              {% if page.previous %}
+                <li class="previous">
+                  <a href="{{ site.url }}{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+                </li>
+              {% endif %}
+              {% if page.next %}
+                <li class="next">
+                  <a href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+                </li>
+              {% endif %}
+            </ul>
+          </div>
       </div>
     </div>
   </div>

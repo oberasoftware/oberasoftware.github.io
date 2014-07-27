@@ -3,6 +3,7 @@ layout: page
 permalink: /downloads/
 title: JasDB Downloads
 tagline: JASDB
+weight: 1
 tags: [jasdb, nosql, document, database, java, fast]
 modified: 14-7-2014
 comments: false

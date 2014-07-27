@@ -3,6 +3,7 @@ layout: page
 permalink: /developers/
 title: Developers
 modified: 14-07-2014
+weight: 1
 comments: false
 ---
 We have open sourced the core of our JasDB product, if you are a developer you are welcome to help us take JasDB to the next level. The JasDB Open Source version is hosted in two bitbucket repositories which are publicly available.
