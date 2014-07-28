@@ -2,6 +2,7 @@
 layout: page
 permalink: /about/
 title: About Oberasoftware
+weight: 1
 modified: 14-07-2014
 comments: false
 ---
