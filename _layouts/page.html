@@ -17,13 +17,16 @@
     {% if page.group != null %}
       <div class="col-md-3">
         <div class="panel panel-default">
+          <div class="panel-heading">{{page.title}}</div>
           <div class="panel-body">
-            <ul>
+            <ul class="list-group">
             {% assign links = site.pages %}
             {% for node in links %}
-                {% if page.group != null and node.group != null and page.group == node.group %}
-                <li><a href="{{site.url}}{{node.url}}">{{node.title}}</a></li>
-                {% endif %}
+                {% if page.url != node.url %}
+                  {% if page.group != null and node.group != null and page.group == node.group %}
+                    <li class="list-group-item"><a href="{{ site.url }}{{node.url}}">{{node.title}}</a></li>
+                  {% endif %}
+                {% endfor %}
             {% endfor %}
             </ul>
           </div>
