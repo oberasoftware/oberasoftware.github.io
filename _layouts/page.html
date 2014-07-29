@@ -26,7 +26,7 @@
                   {% if page.group != null and node.group != null and page.group == node.group %}
                     <li class="list-group-item"><a href="{{ site.url }}{{node.url}}">{{node.title}}</a></li>
                   {% endif %}
-                {% endfor %}
+                {% endif %}
             {% endfor %}
             </ul>
           </div>
