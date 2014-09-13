@@ -5,6 +5,7 @@ title: Developers
 modified: 14-07-2014
 weight: 1
 comments: false
+tags: [jasdb,nosql,db,document-based,storage,json,stackable,scalable,definitions,bags,entities,instances,bag,instance,database,document storage,document,REST,obera,software,oberasoftware,obera software,indexes,btree,inverted index,Java]
 ---
 We have open sourced the core of our JasDB product, if you are a developer you are welcome to help us take JasDB to the next level. The JasDB Open Source version is hosted in two bitbucket repositories which are publicly available.
 

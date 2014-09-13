@@ -5,6 +5,7 @@ title: About Oberasoftware
 weight: 1
 modified: 14-07-2014
 comments: false
+tags: [jasdb,nosql,db,document-based,storage,json,stackable,scalable,definitions,bags,entities,instances,bag,instance,database,document storage,document,REST,obera,software,oberasoftware,obera software,indexes,btree,inverted index,Java]
 ---
 
 ## About Us
