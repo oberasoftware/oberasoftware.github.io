@@ -1,7 +1,7 @@
 ---
 layout: post
-title: New website and plans
-description: New website and plans
+title: Maven repositories moved
+description: Maven repositories moved
 modified: 2014-09-15
 tags: [jasdb, news, release, website, nosql, document, storage, java, maven, central, repository, opensource, roadmap]
 comments: false
