@@ -27,11 +27,13 @@ This page contains the download links for the free Enterprise versions of JasDB.
 #### Maven Artifacts
 
 In order to obtain the maven release artifacts the following repository can be used:
+
+Legacy release repository (0.8.x and below versions)
 {% highlight xml %}
 <repository>
-  <id>renarj-release</id>
-  <name>Internal release repository</name>
-  <url>http://oberasoftware.com:8080/nexus/content/repositories/ren_release/</url>
+  <id>jasdb-release</id>
+  <name>JasDB release repository</name>
+  <url>https://raw.github.com/oberasoftware/jasdb_release/mvn-repo</url>
 </repository>
 {% endhighlight %}
 

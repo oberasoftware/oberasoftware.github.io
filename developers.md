@@ -10,15 +10,10 @@ tags: [jasdb,nosql,db,document-based,storage,json,stackable,scalable,definitions
 We have open sourced the core of our JasDB product, if you are a developer you are welcome to help us take JasDB to the next level. The JasDB Open Source version is hosted in two bitbucket repositories which are publicly available.
 
 ### GIT Repositories
-This is the main repository:
+This is the main repository, the development branch is the main point for active development:
 
 {% highlight java %}
 git clone https://bitbucket.org/oberasoftware/jasdb_open/
-{% endhighlight %}
-
-This repository contains the extension API definitions for JasDB
-{% highlight java %}
-git clone https://bitbucket.org/oberasoftware/jasdb_core/
 {% endhighlight %}
 
 ### Becoming a developer
@@ -28,7 +23,7 @@ If you want to participate in developing JasDB we recruit developers by reviewin
 In order to build JasDB, you will require the following pre-requisites:
 
 * Java 1.7
-* Maven 3.0
+* Maven 3.x
 
 Please make sure your JAVA_HOME and M2_HOME are set correctly. Start the build process by simply doing a
 

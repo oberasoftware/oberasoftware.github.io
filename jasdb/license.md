@@ -6,14 +6,14 @@ group: JasDB
 weight: 10
 tagline: JASDB
 tags: [jasdb,nosql,db,document-based,storage,json,stackable,scalable,definitions,bags,entities,instances,bag,instance,database,document storage,document,REST,obera,software,oberasoftware,obera software,indexes,btree,inverted index,Java]
-modified: 14-7-2014
+modified: 14-9-2014
 comments: false
 ---
 
 ## JasDB License
 JasDB uses the MIT X11 license.
 
-Copyright (c) 2012 Obera Software
+Copyright (c) 2014 Obera Software
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
