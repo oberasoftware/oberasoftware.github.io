@@ -16,6 +16,8 @@ This page contains the download links for the free Enterprise versions of JasDB.
 
 * [JasDB v0.8](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.8.zip)
 
+Javadoc is available here: http://oberasoftware.github.io/jasdb/apidocs/
+
 #### Archived versions:
 
 * [JasDB v0.7.1](https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_0.7.1.zip)
