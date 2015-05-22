@@ -2,10 +2,10 @@ title:            Oberasoftware
 subtitle:         NoSQL champion and proud maker of JasDB
 description:      We here at Oberasoftware are making a cool new next generation NoSQL Document based storage solution. Try it out immediately by hitting the Download button!
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-repository_name:  Bitbucket
-repository:       https://bitbucket.org/oberasoftware/jasdb_open
+repository_name:  JasDB Github
+repository:       https://github.com/oberasoftware/jasdb-open
 product_name:     JasDB
-download_url:     https://bitbucket.org/oberasoftware/jasdb_open/downloads/jasdb_1.0.zip
+download_url:     https://github.com/oberasoftware/jasdb-open/releases/download/v1.0/jasdb_1.0.zip
 #url:              http://www.oberasoftware.com
 url:              http://oberasoftware.github.io/jasdb
 #url:              http://localhost:4000
@@ -45,7 +45,7 @@ links:
   - title: JasDB
     url: /jasdb/
   - title: Documentation
-    url: https://bitbucket.org/oberasoftware/jasdb_open/wiki/Home
+    url: https://github.com/oberasoftware/jasdb-open/wiki
     external: true
   - title: Developers
     url: /developers/
