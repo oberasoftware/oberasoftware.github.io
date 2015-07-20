@@ -45,7 +45,7 @@ links:
   - title: JasDB
     url: /jasdb/
   - title: Documentation
-    url: https://github.com/oberasoftware/jasdb-open/wiki
+    url: https://github.com/oberasoftware/jasdb/wiki
     external: true
   - title: Developers
     url: /developers/

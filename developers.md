@@ -13,7 +13,7 @@ We have open sourced the core of our JasDB product, if you are a developer you a
 This is the main repository, the master branch is the main point for active development:
 
 {% highlight java %}
-git clone https://github.com/oberasoftware/jasdb-open.git
+git clone https://github.com/oberasoftware/jasdb.git
 {% endhighlight %}
 
 ### Becoming a developer
