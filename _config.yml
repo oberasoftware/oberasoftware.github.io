@@ -55,8 +55,8 @@ links:
     url: /posts/
   - title: Blog
     url: https://renzedevries.wordpress.com/
-    external: true 
- - title: Support
+    external: true
+  - title: Support
     url: /support/
   - title: About
     url: /about/
