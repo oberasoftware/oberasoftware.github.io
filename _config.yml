@@ -51,8 +51,11 @@ links:
     url: /developers/
   - title: Downloads
     url: /downloads/
-  - title: Blog
+  - title: News
     url: /posts/
+  - title: Blog
+    url: https://renzedevries.wordpress.com/
+    external: true
   - title: Support
     url: /support/
   - title: About
