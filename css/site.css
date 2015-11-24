@@ -1,0 +1,15 @@
+.navbar-default .navbar-collapse {
+    min-height: 80px;
+    max-height: 80px;
+    padding-top: 20px;
+}
+
+.header-image {
+
+  background-image:url('/images/test.png');
+  background-size:cover;
+}
+
+.header-height {
+  height:400px;
+}
