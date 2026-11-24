@@ -1,0 +1,5 @@
+[
+  {"id":"haven-under-fire","name":"Haven Under Fire","category":"Strategy game","status":"In beta","platform":"iPhone & iPad","url":"/haven-under-fire/","description":"Build a home worth defending. Grow your settlement, research your next advantage, and hold back the machines.","image":"/assets/products/haven/04-hold-the-line-1440.jpg","imageSmall":"/assets/products/haven/04-hold-the-line-640.jpg","alt":"Actual Haven Under Fire gameplay: a settlement of farms, workshops and towers defending its crystals.","published":true},
+  {"id":"jasdb","name":"JasDB","category":"Developer tools","status":"Source available","platform":"Java · REST","url":"/products/jasdb/","description":"A document database for your next idea. Work with flexible data through Java or REST, embedded in your app or running on its own.","image":"/assets/products/jasdb/document-engine.svg","alt":"Illustration of documents flowing through a database index to Java and REST clients.","published":true},
+  {"id":"train-studio","name":"Train Studio","published":false}
+]
