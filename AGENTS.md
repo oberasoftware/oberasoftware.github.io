@@ -7,3 +7,5 @@ Keep the website static, accessible and responsive. Edit `tools/build.py` and `_
 Use authentic product media, clearly distinguish artwork/diagrams from actual gameplay, retain provenance in MEDIA.md, and optimize file size without misrepresenting the product. Never invent availability, prices, store/test links, download buttons, testimonials or compatibility. New products join the catalogue only when enough approved detail exists.
 
 No tracking, third-party scripts, external fonts, cookies or backend without explicit approval. Keep privacy accurate for both local game data and GitHub Pages hosting. Do not modify unrelated product repositories, game code or signing settings. Publish only the reviewed static-site commit; never commit credentials or local QA output.
+
+The original Obera red comet is the established publisher identity. Retain it as the publisher mark in shared navigation/footer and favicon, and preserve the unmodified handwritten logo in the homepage heritage panel. Keep the new product presentation; do not replace the comet with a generic monogram.

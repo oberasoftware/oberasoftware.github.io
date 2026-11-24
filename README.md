@@ -46,3 +46,7 @@ The website is static and contains no telemetry, cookies, forms, remote fonts or
 ## Redesign validation — 24 November 2026
 
 The eight generated pages passed local link/anchor, metadata, image and catalogue checks. Browser review covered desktop (1440px), tablet (834px), phone (390px) and narrow phone (320px), with no page overflow. Screenshot navigation, arrow keys, Escape/focus return and the support accordion were exercised. Mobile navigation has 44px-tall targets. Product media totals approximately 2.4 MiB; responsive images and lazy loading keep initial transfers smaller. No product runtime or existing documentation was changed.
+
+## Comet identity
+
+The original red Obera comet is the publisher mark. The shared header/footer use an editable vector interpretation; the homepage’s Our roots panel displays `images/oberalogo.png` unchanged at native size. Its handwritten lettering remains part of the story. Use `assets/publishing/favicon.svg` for the compact browser mark. See `MEDIA.md` for provenance.
